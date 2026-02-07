@@ -9,7 +9,7 @@ output_dir = Path('pendul_simplu_output')
 output_dir.mkdir(exist_ok=True)
 
 # Parametri fizici
-g = 9.81        # acceleratia gravitationala (m/s²)
+g = 9.81        # acceleratia gravitationala (m/s^2)
 L = 1.0         # lungimea firului (m)
 theta0 = 0.3    # unghi initial (radiani)
 omega0 = 0.0    # viteza unghiulara initiala (rad/s)
@@ -113,3 +113,4 @@ pptx_path = output_dir / "Prezentare_Pendul_Simplu.pptx"
 prs.save(pptx_path)
 
 print(f"Fisiere generate in: {output_dir.resolve()}")
+
